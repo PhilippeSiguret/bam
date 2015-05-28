@@ -178,7 +178,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
+    background-image: url(../img/header2.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -259,6 +259,14 @@ header .header-content .header-content-inner p {
 .service-box p {
     margin-bottom: 0;
 }
+
+/*#services {
+    background-image: url(../img/logo2.png);
+    background-size: 384px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+}*/
 
 .portfolio-box {
     display: block;
