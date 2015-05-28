@@ -25,6 +25,25 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
 
+    <!-- pixel Facebook -->
+            <script>(function() {
+          var _fbq = window._fbq || (window._fbq = []);
+          if (!_fbq.loaded) {
+            var fbds = document.createElement('script');
+            fbds.async = true;
+            fbds.src = '//connect.facebook.net/en_US/fbds.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(fbds, s);
+            _fbq.loaded = true;
+          }
+          _fbq.push(['addPixelId', '1018370008191720']);
+        })();
+        window._fbq = window._fbq || [];
+        window._fbq.push(['track', 'PixelInitialized', {}]);
+        </script>
+        <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=1018370008191720&amp;ev=PixelInitialized" /></noscript>
+
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -56,13 +75,13 @@
                         <a href="https://www.facebook.com/bonjourlebam"><i class="fa fa-facebook-square wow bounceIn" data-wow-delay=".2s"></i> &nbsp       Suivez-nous sur Facebook, c'est important!</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">A propos</a>
+                        <a class="page-scroll" href="#about">Alpha-tests</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Les jeux</a>
+                        <a class="page-scroll" href="#services">Le principe</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">La Communauté</a>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -90,10 +109,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading"> Lorem ipsum dolor sit amet.</h2>
+                    <h2 class="section-heading"> Lancement des alpha-tests</h2>
                     <hr class="light">
-                    <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-                    <a href="#" class="btn btn-default btn-xl">Get Started!</a>
+                    <p class="text-faded">Nous allons commencer les alpha-tests avec 10 boîtes envoyées pour les plus motivés et les plus rapides. L'inscription est gratuite, mais il faudra remplir des questionnaires à l'issue des soirées effectuées, et nous rendre les boîtes au bout de quelques temps également, pour que d'autres puissent tester. </p>
+                    <p class="text-faded">Ce que l'on veut faire c'est avoir des premiers retours afin d'améliorer le concept pour passer en production plus importante</p>
+                    <a href="mailto:bonjourlebam@gmail.com" class="btn btn-default btn-xl">Inscrivez-vous aux alpha-tests par mail!</a>
                 </div>
             </div>
         </div>
@@ -112,14 +132,14 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
+                        <i class="fa fa-4x fa-question-circle wow bounceIn text-primary"></i>
                         <h3>Question pour un pochtron</h3>
                         <p class="text-muted">Un jeu de questions également appelé "Trivial pour cuite"</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                        <i class="fa fa-4x fa-arrow-circle-right wow bounceIn text-primary" data-wow-delay=".1s"></i>
                         <h3>La boucherie Lilloise</h3>
                         <p class="text-muted">Jeu de l'oie en plus compliqué</p>
                     </div>
@@ -128,7 +148,7 @@
                     <div class="service-box">
                         <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
                         <h3>Toujours à jour</h3>
-                        <p class="text-muted">On s'adapte entre chaque version du jeu</p>
+                        <p class="text-muted">On s'adapte entre chaque version du jeu, grâce à tous vos retours! </p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
@@ -147,14 +167,14 @@
             <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6">
                     <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/soiree1.png" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Marine
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Notre première testeuse
                                 </div>
                             </div>
                         </div>
@@ -162,14 +182,14 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/soiree2.png" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    En milieu de soirée
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Le selfie du bourré 
                                 </div>
                             </div>
                         </div>
@@ -243,7 +263,7 @@
         <div class="container text-center">
             <div class="call-to-action">
                 <h2>Les premières boîtes sont bientôt envoyées!</h2>
-                <a href="mailto:bonjourlebam@gmail.com" class="btn btn-default btn-xl wow tada">Inscrivez-vous aux beta-tests</a>
+                <a href="mailto:bonjourlebam@gmail.com" class="btn btn-default btn-xl wow tada">Devenez alpha testeurs  </a>
             </div>
         </div>
     </aside>
@@ -255,21 +275,23 @@
                     <h2 class="section-heading">Gardons le contact! </h2>
                     <hr class="primary">
                     <p>N'hésitez <strong><u>vraiment</u></strong> pas à nous contacter!</p>
-                    <br>
+                    <p>Que ce soit pour nous rapporter un bug, nous dire bonjour, ou nous insulter, on est preneurs! </p>
+                    <br><br>
                 </div>
                 <div class="col-lg-4  text-center">
                     <i class="fa fa-phone fa-3x wow bounceIn"></i>
                     <p>06.08.86.08.94</p>
                 </div>
-                <div class="col-lg-4  text-center">
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:bonjourlebam@gmail.com">bonjourlebam@gmail.com</a></p>
-                </div>
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-facebook-square fa-3x wow bounceIn" data-wow-delay=".2s"></i>
                     <p><a href="https://www.facebook.com/bonjourlebam">facebook.com/bonjourlebam</a></p>
 
-            </div>
+                </div>
+                <div class="col-lg-4  text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="mailto:bonjourlebam@gmail.com">bonjourlebam@gmail.com</a></p>
+                </div>
+
         </div>
     </section>
 
