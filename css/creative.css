@@ -178,8 +178,8 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-/*    background-image: url(../img/header3.jpg);
-*/    background-position: center;
+/*    background-image: url(../img/header3.jpg);*/    
+    background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -495,5 +495,4 @@ section {
     height:500px;
     padding-top:50px;
     padding-bottom:50px;
-    overflow:auto;
 }
