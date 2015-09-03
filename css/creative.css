@@ -498,3 +498,23 @@ section {
     padding-bottom:50px;
     overflow:auto;
 }
+
+/*CUSTOM*/
+
+.questions-normales{
+    background-color: #1ABC9C;
+    text-align: center;
+}
+.questions-normales p, h2{
+    color: white;
+    font-family: Open Sans;
+    vertical-align: center;
+}
+.screen {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    height:100vh;
+}
