@@ -32,8 +32,24 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
-    <link rel="stylesheet" type="text/css" href="css/app.css">
 
+    <!-- pixel Facebook -->
+            <script>(function() {
+          var _fbq = window._fbq || (window._fbq = []);
+          if (!_fbq.loaded) {
+            var fbds = document.createElement('script');
+            fbds.async = true;
+            fbds.src = '//connect.facebook.net/en_US/fbds.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(fbds, s);
+            _fbq.loaded = true;
+          }
+          _fbq.push(['addPixelId', '1018370008191720']);
+        })();
+        window._fbq = window._fbq || [];
+        window._fbq.push(['track', 'PixelInitialized', {}]);
+        </script>
+        <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=1018370008191720&amp;ev=PixelInitialized" /></noscript>
 
     <!-- Generating open graph tags() START -->
         <!-- params: {"kid":0,"vacancy_id":"0","page":"","command":""} -->
@@ -88,7 +104,7 @@
                         <a href="https://www.facebook.com/bonjourlebam"><i class="fa fa-facebook-square wow bounceIn" data-wow-delay=".2s"></i> &nbsp       Suivez-nous sur Facebook, c'est important!</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">Version Mobile</a>
+                        <a class="page-scroll" href="#about">Alpha-tests</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#services">Les principes</a>
@@ -107,8 +123,6 @@
         <!-- /.container-fluid -->
     </nav>
 
-<!-- ####################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################### -->
-
     <header>
         <div class="header-content bg-1 text-center">
             <div class="header-content-inner">
@@ -120,18 +134,18 @@
         </div>
     </header>
 
-    <section class="bg-dark" id="about">
+    <section class="bg-primary" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading"> BAMERS, BAMEUSES !  </h2>
+                    <h2 class="section-heading"> Les Version Beta sont bientôt disponibles!  </h2>
                     <hr class="light">
-                    <p class="text-faded">L'idée d'avoir Question pour un Pchtron toujours sur soi, partout dans le monde vous faisait fantasmer, nous l'avons fait!</p>
-                    <p class="text-faded">Découvrez en avant première la beta test de la version mobile! </p>
-                    <p class="text-faded">C'est gratuit et ça se passe ici </p>
-                    <p><i class="fa fa-arrow-down" style="font-size:60px;"></i></p>
+                    <p class="text-faded">40 boîtes sont en cours de création, diponibles à partir de <a href="https://www.facebook.com/events/1590074607940077/" style="color:white"> la première Garden BAMerie</a></p>
+                    <p class="text-faded">Design amélioré, plus de questions, un nouveau jeu!</p>
+                    <p class="text-faded">À vos verres, </p>
+                    <p class="text-faded" style="text-align:right">BAM</p>
 
-                    <a href="http://bit.ly/bam-questions" class="btn btn-default btn-xl">BAM!</a>
+                    <a href="http://bit.ly/bam-beta" class="btn btn-default btn-xl">Pré-inscris-toi pour la version Beta!</a>
                 </div>
             </div>
         </div>
@@ -165,7 +179,7 @@
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                        <h3>Version Actuelle : 0.3</h3>
+                        <h3>Version Actuelle : 0.2</h3>
                         <p class="text-muted">On s'adapte entre chaque version du jeu, grâce à tous vos retours! </p>
                     </div>
                 </div>
@@ -310,16 +324,11 @@
         </div>
     </section>
 
-<!-- ####################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################### -->
-
-
-
-    <!-- jQuery -->
-         <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
 <!-- main -->
         <script src="js/main.js"></script>
-        <script type="text/javascript" src="js/app.js"></script>
 
+    <!-- jQuery -->
+        <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
         <script src="js/bootstrap.min.js"></script>
@@ -342,24 +351,6 @@
           ga('send', 'pageview');
 
         </script>
-
-           <!-- pixel Facebook -->
-            <script>(function() {
-          var _fbq = window._fbq || (window._fbq = []);
-          if (!_fbq.loaded) {
-            var fbds = document.createElement('script');
-            fbds.async = true;
-            fbds.src = '//connect.facebook.net/en_US/fbds.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(fbds, s);
-            _fbq.loaded = true;
-          }
-          _fbq.push(['addPixelId', '1018370008191720']);
-        })();
-        window._fbq = window._fbq || [];
-        window._fbq.push(['track', 'PixelInitialized', {}]);
-        </script>
-        <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=1018370008191720&amp;ev=PixelInitialized" /></noscript>
 </body>
 
 </html>
