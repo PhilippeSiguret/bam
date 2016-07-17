@@ -29,7 +29,7 @@ $(document).ready(function() {
                     var numGold = entries[i].gsx$numgold.$t;
                     var retourQuestionNormale = entries[i] .gsx$retourquestionnormale.$t;
 
-                    $('#contentGold').append('<a href="#' + retourQuestionNormale + '"><div id=' + numGold + ' class="slideUp fullScreen bgGold"><h1>' + questionGold + '</h1><h3>' + reponseGold + '</h3></div></a>');
+                    $('#contentGold').append('<a href="#' + retourQuestionNormale + '"><div id=' + numGold + ' class="slideUp fullScreen bgGold white shadow"><h1>' + questionGold + '</h1><h3>' + reponseGold + '</h3></div></a>');
 
                 }
             }
