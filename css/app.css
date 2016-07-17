@@ -1,0 +1,91 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.fullScreen {
+    width: 100%;
+    height: 100vh;
+    padding: 4%
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.white {
+    color: white;
+}
+
+.white a {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+.black a {
+    color: black;
+}
+
+.noDecoration {
+    text-decoration: none;
+}
+
+.noDecoration a {
+    text-decoration: none !important;
+}
+
+.noScroll {
+    overflow-y: hidden;
+}
+
+.font1 h1 {
+    font-family: Raleway, sans-serif;
+}
+
+.font1 h3 {
+    font-family: Josefin Slab, sans-serif;
+}
+
+.size1 h1 {
+    font-size: 2em;
+    padding: 3%;
+}
+.size1 h3 {
+    font-size: 1.6em;
+}
+
+.size1 button {
+    margin: 3%;
+}
+
+.bgGreen {
+    background-color: #1ABC9C;
+}
+
+.bgYellow {
+    background-color: #FFCF40;
+}
+
+.bgGold {
+    background: url(/img/bgGold.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    /* pour anciens Chrome et Safari */
+    background-size: cover;
+    /* version standardisée */
+    background-color: #FFCF40;
+}
+
+.shadow {
+    text-shadow: 1px 1px 2px black;
+}
+.uppercase{
+  text-transform: uppercase;
+}
