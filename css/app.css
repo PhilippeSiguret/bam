@@ -58,6 +58,9 @@
     font-size: 2em;
     padding: 3%;
 }
+.size1 h3 {
+    font-size: 1.6em;
+}
 
 .size1 button {
     margin: 3%;
