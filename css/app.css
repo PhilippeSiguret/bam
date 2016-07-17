@@ -24,7 +24,9 @@
 
 .white a {
     color: white;
-}.black {
+}
+
+.black {
     color: black;
 }
 
@@ -49,16 +51,16 @@
 }
 
 .font1 h3 {
-    font-family: Lato, sans-serif;
-    font-weight: 100;
+    font-family: Josefin Slab, sans-serif;
 }
 
 .size1 h1 {
     font-size: 2em;
     padding: 3%;
 }
-.size1 button{
-  margin: 3%;
+
+.size1 button {
+    margin: 3%;
 }
 
 .bgGreen {
@@ -73,3 +75,9 @@
     background-size: cover;
     /* version standardisée */
 }
+
+.shadow {
+  text-shadow: 1px 1px 2px black; }
+  .shadow:hover, .shadow:active, .shadow:focus {
+    text-shadow: none; }
+
