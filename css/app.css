@@ -24,6 +24,12 @@
 
 .white a {
     color: white;
+}.black {
+    color: black;
+}
+
+.black a {
+    color: black;
 }
 
 .noDecoration {
@@ -48,7 +54,10 @@
 
 .size1 h1 {
     font-size: 2em;
-    padding: 10%;
+    padding: 3%;
+}
+.size1 button{
+  margin: 3%;
 }
 
 .bgGreen {
