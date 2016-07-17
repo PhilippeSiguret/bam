@@ -30,20 +30,36 @@
     text-decoration: none;
 }
 
-.noDecoration  a{
+.noDecoration a {
     text-decoration: none !important;
 }
 
-.font1 h1{
+.noScroll {
+    overflow-y: hidden;
+}
+
+.font1 h1 {
     font-family: Raleway, sans-serif;
 }
+
 .font1 h3 {
- font-family: Lato, sans-serif;
+    font-family: Lato, sans-serif;
 }
-.size1 h1{
-  font-size: 2em;
-  padding : 10%;
+
+.size1 h1 {
+    font-size: 2em;
+    padding: 10%;
 }
+
 .bgGreen {
-  background-color: #1ABC9C;
+    background-color: #1ABC9C;
+}
+
+.bgGold {
+    background-color: #FFCF40;
+    background: url(https://raw.githubusercontent.com/PhilippeSiguret/bam/e75a426716698e4ab914036c2692fe1775b219e1/img/bgGold.png) no-repeat center fixed;
+    -webkit-background-size: cover;
+    /* pour anciens Chrome et Safari */
+    background-size: cover;
+    /* version standardisée */
 }
