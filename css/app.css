@@ -67,17 +67,25 @@
     background-color: #1ABC9C;
 }
 
-.bgGold {
+.bgYellow {
     background-color: #FFCF40;
+}
+
+.bgGold {
     background: url(https://raw.githubusercontent.com/PhilippeSiguret/bam/e75a426716698e4ab914036c2692fe1775b219e1/img/bgGold.png) no-repeat center fixed;
     -webkit-background-size: cover;
     /* pour anciens Chrome et Safari */
     background-size: cover;
     /* version standardisée */
+    background-color: #FFCF40;
 }
 
 .shadow {
-  text-shadow: 1px 1px 2px black; }
-  .shadow:hover, .shadow:active, .shadow:focus {
-    text-shadow: none; }
+    text-shadow: 1px 1px 2px black;
+}
 
+.shadow:hover,
+.shadow:active,
+.shadow:focus {
+    text-shadow: none;
+}
