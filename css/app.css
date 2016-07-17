@@ -75,7 +75,7 @@
 }
 
 .bgGold {
-    background: url(https://raw.githubusercontent.com/PhilippeSiguret/bam/e75a426716698e4ab914036c2692fe1775b219e1/img/bgGold.jpg) no-repeat center fixed;
+    background: url(/img/bgGold.jpg) no-repeat center fixed;
     -webkit-background-size: cover;
     /* pour anciens Chrome et Safari */
     background-size: cover;
