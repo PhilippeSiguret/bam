@@ -25,6 +25,10 @@
 .white a {
     color: white;
 }
+.white a:hover {
+    color: white;
+}
+
 
 .black {
     color: black;
