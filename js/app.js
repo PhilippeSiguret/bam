@@ -28,6 +28,7 @@ $(document).ready(function() {
 
     return false;
   });
+
     $('a').on('click', function() {
         $(".inactiveOnClick").hide(400);
     });
