@@ -1,94 +1,365 @@
-
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
+
     <title>Le BAM </title>
+
     <meta charset="utf-8">
+
     <!-- canonical -->
+    <link rel="canonical" href="http://www.le-bam.fr"/>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="/img/favicon.png"/>
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="/manifest.json">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
     <!-- Custom Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Raleway|Josefin+Slab' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
     <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/app.css">
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
-    <!-- Bookmark This  -->
-    <link rel="stylesheet" type="text/css" href="css/addtohomescreen.css">
-    <script src="js/addtohomescreen.js"></script>
-    <!-- main -->
-    <script type="text/javascript " src="js/app.js "></script>
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+    <!-- Generating open graph tags() START -->
+        <!-- params: {"kid":0,"vacancy_id":"0","page":"","command":""} -->
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Le BAM ">
+        <meta property="og:description" content="Le fossoyeur des jeux de plateaux">
+        <meta property="og:url" content="http://www.le-bam.fr">
+        <meta property="og:image" content="/img/publication-fb2.png">
+
+
+    <!-- USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36-->
+        <meta name="description" content="Le fossoyeur des jeux de plateaux">
+        <meta name="revisit-after" content="10 Days">
+        <meta name="robots" content="index, follow">
+        <meta name="abstract" content="Le fossoyeur des jeux de plateaux">
+        <meta name="replyto" content="">
+        <meta name="author" content="BAM">
+        <meta name="imagetoolbar" content="NO">
+        <meta name="locale" content="FR">
+        <meta name="language" content="FRENCH">
+        <meta name="content-language" content="FR">
+        <meta name="title" content="Le fossoyeur des jeux de plateaux">
+        <meta http-equiv="expires" content="0">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
-<body id="page-top" class="bgGreen noScroll">
-    <script>
-    addToHomescreen();
-    </script>
-    <a id="display" class="inactiveOnClick">
-        <div class="container center textCenter fullScreen inactiveOnClick white noDecoration font1" style="background-color:#1ABC9C;">
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Le BAM</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="https://www.facebook.com/bonjourlebam"><i class="fa fa-facebook-square wow bounceIn" data-wow-delay=".2s"></i> &nbsp       Suivez-nous sur Facebook, c'est important!</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Version Mobile</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Les principes</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Nos avancées </a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+<!-- ####################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################### -->
+
+    <header>
+        <div class="header-content bg-1 text-center">
+            <div class="header-content-inner">
+                <h1 >Le jeu qui va retourner vos soirées </h1>
+                <hr>
+                <br><br><br>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Faites-moi découvrir le BAM </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-dark" id="about">
+        <div class="container">
             <div class="row">
-                <div class="col-xs-12">
-                    <img src="img/Logo.png" alt="" style="width: 27%;">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading"> BAMERS, BAMEUSES !  </h2>
+                    <hr class="light">
+                    <p class="text-faded">L'idée d'avoir Question pour un Pochtron toujours sur soi, partout dans le monde vous faisait fantasmer, nous l'avons fait!</p>
+                    <p class="text-faded">Découvrez en avant première notre app!  </p>
+                    <p class="text-faded">C'est gratuit et ça se passe ici </p>
+                    <p><i class="fa fa-arrow-down" style="font-size:60px;"></i></p>
 
-                <img src="img/Logo.png" alt="" style="width: 27%;">
-
-                    <h1>Questions pour un pochtron </h1>
+                    <a href="https://philippesiguret.github.io/bam-app/" class="btn btn-default btn-xl">BAM!</a>
                 </div>
             </div>
         </div>
-    </a>
-    <div id="content" class="textCenter white noDecoration font1 size1"></div>
-    <!-- Modal - Liste des gages  -->
-    <div class="modal fade" id="gages" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                    <h4 class="modal-title" id="myModalLabel">Il choisit un gage pour la personne qu'il souhaite </h4>
-                </div>
-                <div class="modal-body">
-                    <ul>
-                        <li>30 pompes avec une pause de 15 secondes maximum = 1 shot si non réussi</li>
-                        <li>Va prendre une douche, habillé bien sûr.</li>
-                        <li>Prends un pot de moutarde, trempe tout ton majeur dedans et avale le tout.</li>
-                        <li>Bois un shot d’eau par le nez.</li>
-                        <li>Va à la fenêtre et crie ton amour pour Hélène Ségara.</li>
-                        <li>Va acheter une bière en caleçon.</li>
-                        <li>Fais à manger pour tout le monde.</li>
-                        <li>Fais toute la vaisselle avec une seule main.</li>
-                        <li>Tu as une laisse autour du cou et tu vis à 4 pattes pendant 20 minutes.</li>
-                        <li>Mange un aliment au choix du gagnant.</li>
-                        <li>Va chez le voisin et chante-lui ta plus belle sérénade.</li>
-                        <li>Habille-toi toute la nuit en sexe opposé.</li>
-                        <li>Roule une pelle à qui tu veux.</li>
-                        <li>Livre nous un gros dossier.</li>
-                        <li>Laisse aller la créativité des autres joueurs sur ton visage.</li>
-                        <li>Appelle la police et dis leur que tu fais un tapage nocturne.</li>
-                        <li>Une personne te crie dans l’oreille la chanson de son choix.</li>
-                        <li>Donne un cours de GRS à tout le monde.</li>
-                        <li>Lis ta dernière conversation SMS à voix haute.</li>
-                        <li>Change de sous-vêtements avec la personne de ton choix.</li>
-                    </ul>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">C'est bon!</button>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Les principes du jeu</h2>
+                    <hr class="primary">
                 </div>
             </div>
         </div>
-    </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-question-circle wow bounceIn text-primary"></i>
+                        <h3>Question pour un pochtron</h3>
+                        <p class="text-muted">Un subtil mélange de PMU et de Julien Lepers </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-arrow-circle-right wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                        <h3>La boucherie Lilloise</h3>
+                        <p class="text-muted">Comme Koh Lanta il n’en restera qu’un, ton sort n’est plus entre tes mains </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                        <h3>Version Actuelle : 0.3</h3>
+                        <p class="text-muted">On s'adapte entre chaque version du jeu, grâce à tous vos retours! </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                        <h3>HomeMade, with love</h3>
+                        <p class="text-muted">Tout est fait à la main, pour vous! </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/soiree1.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Marine
+                                </div>
+                                <div class="project-name">
+                                    Notre première testeuse
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/soiree2.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    En milieu de soirée
+                                </div>
+                                <div class="project-name">
+                                    Le selfie du bourré
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/boite.jpeg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Axel qui commence le pochoir
+                                </div>
+                                <div class="project-name">
+                                    La boîte se construit
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/cartes.jpeg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Toutes chaudes sorties de l'impression
+                                </div>
+                                <div class="project-name">
+                                    Les cartes
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/premier.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    La réalisation du premier prototype
+                                </div>
+                                <div class="project-name">
+                                    #PureCreation
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://www.facebook.com/AnOngoingPhotograph" class="portfolio-box">
+                        <img src="img/portfolio/soiree3.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Après un question pour un pochtron
+                                </div>
+                                <div class="project-name">
+                                    Début de soirée au BAM
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action" style="padding: 100px;">
+                <h2 style="font-size: 41px;">T'as fais une soirée BAM hier?</h2>
+                <br>
+                <a href="http://bit.ly/lendemaindubam" class="btn btn-default btn-xl wow tada"> Réponds au questionnaire ! </a>
+            </div>
+        </div>
+    </aside>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Gardons le contact! </h2>
+                    <hr class="primary">
+                    <p>N'hésites     <strong><u>vraiment</u></strong> pas à nous contacter!</p>
+                    <p>Que ce soit pour nous rapporter un bug, nous dire bonjour, ou nous insulter, on est preneurs! </p>
+                    <br><br>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <i class="fa fa-facebook-square fa-3x wow bounceIn" data-wow-delay=".2s"></i>
+                    <p><a href="https://www.facebook.com/bonjourlebam">facebook.com/bonjourlebam</a></p>
+
+                </div>
+                <div class="col-lg-6  text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="mailto:bonjourlebam@gmail.com">bonjourlebam@gmail.com</a></p>
+                </div>
+
+        </div>
+    </section>
+
+<!-- ####################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################### -->
+
+
+
+    <!-- jQuery -->
+         <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+<!-- main -->
+        <script src="js/main.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+
+
+    <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/jquery.fittext.js"></script>
+        <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+        <script src="js/creative.js"></script>
+    <!-- Google Analytics -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-59739996-2', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+
+           <!-- pixel Facebook -->
+            <script>(function() {
+          var _fbq = window._fbq || (window._fbq = []);
+          if (!_fbq.loaded) {
+            var fbds = document.createElement('script');
+            fbds.async = true;
+            fbds.src = '//connect.facebook.net/en_US/fbds.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(fbds, s);
+            _fbq.loaded = true;
+          }
+          _fbq.push(['addPixelId', '1018370008191720']);
+        })();
+        window._fbq = window._fbq || [];
+        window._fbq.push(['track', 'PixelInitialized', {}]);
+        </script>
+        <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=1018370008191720&amp;ev=PixelInitialized" /></noscript>
 </body>
 
 </html>
